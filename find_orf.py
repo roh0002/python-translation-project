@@ -301,8 +301,9 @@ def main():
     orf = find_first_orf(sequence = sequence,
             start_codons = args.start_codon,
             stop_codons = args.stop_codon)
-    sys.stdout.write('{}\n'.format(orf))
+#    sys.stdout.write('{}\n'.format(orf))
 
 
 if __name__ == '__main__':
     main()
+
